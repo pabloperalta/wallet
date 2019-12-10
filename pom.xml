@@ -116,6 +116,8 @@
                                     <element>CLASS</element>
                                     <excludes>
                                         <exclude>ar.gob.afip.training.tdd.wallet.Application</exclude>
+                                        <exclude>ar.gob.afip.training.tdd.wallet.core.WalletBusiness</exclude>
+                                        <exclude>ar.gob.afip.training.tdd.wallet.api.WalletValidator</exclude>
                                     </excludes>
                                     <limits>
                                         <limit>

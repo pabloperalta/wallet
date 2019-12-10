@@ -1,6 +1,8 @@
 package ar.gob.afip.training.tdd.wallet;
 
 
+import ar.gob.afip.training.tdd.wallet.exception.WalletBusinessException;
+
 public class Wallet {
     private Double balance = 0d;
 
@@ -16,7 +18,11 @@ public class Wallet {
         this.balance += amount;
     }
 
-    public void debit(Double amount) {
+    public void debit(Double amount) throws WalletBusinessException {
+        if (amount > this.balance) {
+            throw new WalletBusinessException("No tenes saldo suficiente");
+        }
+
         this.balance -= amount;
     }
 }

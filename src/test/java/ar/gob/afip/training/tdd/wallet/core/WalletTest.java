@@ -1,4 +1,6 @@
-import ar.gob.afip.training.tdd.wallet.Wallet;
+package ar.gob.afip.training.tdd.wallet.core;
+
+import ar.gob.afip.training.tdd.wallet.core.model.Wallet;
 import ar.gob.afip.training.tdd.wallet.exception.WalletBusinessException;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;

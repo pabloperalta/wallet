@@ -1,4 +1,4 @@
-package ar.gob.afip.training.tdd.wallet;
+package ar.gob.afip.training.tdd.wallet.core.model;
 
 
 import ar.gob.afip.training.tdd.wallet.exception.WalletBusinessException;
